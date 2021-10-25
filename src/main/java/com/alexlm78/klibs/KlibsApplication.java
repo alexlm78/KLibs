@@ -1,4 +1,4 @@
-package com.alexlm78.klibs.klibs;
+package com.alexlm78.klibs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class KlibsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KlibsApplication.class, args);
 	}
-
 }

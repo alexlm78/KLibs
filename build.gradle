@@ -5,7 +5,6 @@ plugins {
 }
 
 group = 'com.alexlm78.klibs'
-version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
 repositories {
@@ -13,7 +12,9 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter'	
+	implementation 'com.microsoft.ews-java-api:ews-java-api:2.0'	// https://mvnrepository.com/artifact/com.microsoft.ews-java-api/ews-java-api
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
